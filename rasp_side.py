@@ -3,7 +3,7 @@ import time
 
 while True:
     try:
-        requests.get("http://google.com", timeout=5)
+        requests.get("http://ctare.cloudapp.net:8000/bus/hachioji", timeout=5)
         print("connected")
     except requests.exceptions.ConnectionError:
         print("no network")
